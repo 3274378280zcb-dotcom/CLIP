@@ -35,7 +35,7 @@ results/   aggregated results, tables and figures
 
 ## Environment
 
-To be completed once the environment is fixed. No value is stated here until it has been verified.
+I am still setting up the environment. The exact versions will be added here once they are confirmed on my machine.
 
 - Hardware: TBD (GPU model and memory will be recorded)
 - Python: TBD
