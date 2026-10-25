@@ -1,0 +1,50 @@
+# --- Python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Data and pretrained weights (obtained by scripts/, never committed) ---
+data/
+datasets/
+raw_data/
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.npy
+*.npz
+*.h5
+*.parquet
+
+# --- Model checkpoints ---------------------------------------------------
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# --- Experiment tracking and temporary artefacts -------------------------
+wandb/
+runs/*/checkpoints/
+*.tmp
+*.pyc
+
+# --- Credentials ---------------------------------------------------------
+.env
+*.pem
+*.key
+secrets/
+
+# --- Editors and OS ------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NOTE: small text logs under logs/ are intentionally tracked, because every
+# reported number must be traceable to a log file in this repository.
